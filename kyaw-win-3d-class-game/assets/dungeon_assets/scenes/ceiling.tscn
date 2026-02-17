@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c36eqridg7bb1"]
+
+[ext_resource type="PackedScene" uid="uid://cjpwo1om33oyb" path="res://assets/dungeon_assets/building/ceiling.glb" id="1_qr5cl"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_3l1bv"]
+points = PackedVector3Array(-2, -0.05000457, -2, -2, 0.48415816, -2, 2, -0.05000457, -2, -2, -0.2500012, -1.1472201, -2, 0.48408628, 2, 2, 0.48408628, 2, 2, 0.48408628, -2, 2, -0.2500012, -1.1472201, -2, -0.2500012, 1.1468284, -2, -0.05000457, 2, 2, -0.05000457, 2, 2, -0.2500012, 1.1468284)
+
+[node name="Ceiling" type="StaticBody3D" unique_id=1308693090]
+
+[node name="ceiling" parent="." unique_id=990491130 instance=ExtResource("1_qr5cl")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=148935269]
+shape = SubResource("ConvexPolygonShape3D_3l1bv")
