@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://b2rgi4q8elx6e"]
+
+[ext_resource type="PackedScene" uid="uid://obb0v1qvle80" path="res://assets/dungeon_assets/building/wall_arched.glb" id="1_70kl3"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ryc7q"]
+points = PackedVector3Array(1.9999998, 4, 0.5000006, 1.9999998, 0, 0.5000006, 1.9999998, 4, -0.49999997, -2.0000002, 4, 0.49990276, 1.9999998, 0, -0.49999997, -2.0000002, 0, 0.49990276, -2.0000002, 4, -0.49999997, -2.0000002, 0, -0.49999997)
+
+[node name="wall_arched2" type="StaticBody3D" unique_id=1585098497]
+
+[node name="wall_arched2" parent="." unique_id=864602227 instance=ExtResource("1_70kl3")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=765989719]
+shape = SubResource("ConvexPolygonShape3D_ryc7q")

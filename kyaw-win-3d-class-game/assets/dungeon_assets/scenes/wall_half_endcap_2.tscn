@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://spd3jqxocmer"]
+
+[ext_resource type="PackedScene" uid="uid://kd5dlmrndwup" path="res://assets/dungeon_assets/building/wall_half_endcap.glb" id="1_b55d6"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_hlxkd"]
+points = PackedVector3Array(-2, 0, -0.49999997, 0, 0, -0.49999997, -2, 0, 0.49990216, -2, 4, -0.49999997, 0, 0, 0.49990216, 0, 4, -0.49999997, -2, 4, 0.49990216, 0, 4, 0.49990216)
+
+[node name="wall_half_endcap2" type="StaticBody3D" unique_id=761905532]
+
+[node name="wall_half_endcap2" parent="." unique_id=1241128057 instance=ExtResource("1_b55d6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=147056176]
+shape = SubResource("ConvexPolygonShape3D_hlxkd")

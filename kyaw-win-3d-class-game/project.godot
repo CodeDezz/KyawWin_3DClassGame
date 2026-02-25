@@ -15,6 +15,12 @@ run/main_scene="uid://2ipvk30mw2yd"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[importer_defaults]
+
+animation_library={
+&"animation/fps": 120.0
+}
+
 [input]
 
 move_left={
