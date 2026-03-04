@@ -13,7 +13,7 @@ config_version=5
 config/name="KyawWin_3DClassGame"
 run/main_scene="uid://2ipvk30mw2yd"
 config/features=PackedStringArray("4.6", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://diy_assests/icon.svg"
 
 [importer_defaults]
 
