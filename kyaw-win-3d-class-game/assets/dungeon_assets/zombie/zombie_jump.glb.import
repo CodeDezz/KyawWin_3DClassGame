@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://o2a3we6nj8ew"
-path="res://.godot/imported/wooden_crate.glb-7516af2d0f6f754bbf7db0341e7cce9e.scn"
+uid="uid://cvahfb0rpvmjx"
+path="res://.godot/imported/zombie_jump.glb-81956de0fa7b643bb070227818ec3833.scn"
 
 [deps]
 
-source_file="res://diy_assests/wooden_crate.glb"
-dest_files=["res://.godot/imported/wooden_crate.glb-7516af2d0f6f754bbf7db0341e7cce9e.scn"]
+source_file="res://assets/dungeon_assets/zombie/zombie_jump.glb"
+dest_files=["res://.godot/imported/zombie_jump.glb-81956de0fa7b643bb070227818ec3833.scn"]
 
 [params]
 
@@ -37,14 +37,6 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={
-"materials": {
-"ImphenziaPixPal": {
-"use_external/enabled": false,
-"use_external/fallback_path": "res://diy_assests/dungeon_mat.tres",
-"use_external/path": "uid://cxs0jkugp3n8f"
-}
-}
-}
+_subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1

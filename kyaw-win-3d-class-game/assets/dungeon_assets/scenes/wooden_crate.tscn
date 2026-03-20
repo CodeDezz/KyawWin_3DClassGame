@@ -7,7 +7,7 @@ points = PackedVector3Array(1, 1, 1, 1, -1, 1, 1, 1, -1, -1, 1, 1, 1, -1, -1, -1
 
 [node name="wooden_crate" type="StaticBody3D" unique_id=916238556]
 
-[node name="wooden_crate" parent="." unique_id=108180340 instance=ExtResource("1_aki6j")]
+[node name="wooden_crate" parent="." unique_id=754557701 instance=ExtResource("1_aki6j")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1144613531]
 shape = SubResource("ConvexPolygonShape3D_aki6j")
